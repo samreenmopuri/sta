@@ -63,6 +63,30 @@ Checks on Asynchronous Pin:Asserion is an asynchronous event & no relation with 
   <img width="1440" alt="Screen Shot 2022-02-05 at 23 08 14" src="https://user-images.githubusercontent.com/99019822/152694068-b85b0980-6071-46d5-aa92-605e1d98a5f9.png">
   <img width="1440" alt="Screen Shot 2022-02-05 at 23 09 52" src="https://user-images.githubusercontent.com/99019822/152694141-0e2c8c99-203b-45bd-8fdb-f07f9e44c16a.png">
 
+DAY5
+ 
+CLOCK GROUPS
+ There are four clock groups synchronous,asynchronous,logically chosen clocks,physically exclusive clock
+ CLOCK PROPERTIES
+         set_clock_groups {by default STA choses synchronous paths,for asynchronous we have to specify asynchronous}
+         set_clock_transition
+         set_clock_latency -source and network latency
+         set_clock-sense -stop propagation
+ For Specific Timing:set_max_delay
+                     set_min_delay
+                     set_disable_timing
+ For Multiple Modes:set_case_analysis
+ <img width="1440" alt="Screen Shot 2022-02-06 at 08 06 06" src="https://user-images.githubusercontent.com/99019822/152694784-23ceaaa4-3854-410b-86e1-95932de40972.png">
+ <img width="1440" alt="Screen Shot 2022-02-06 at 08 24 15" src="https://user-images.githubusercontent.com/99019822/152694823-c1bb0622-8dd9-41b4-82f2-21fda5b7e1ab.png">
+<img width="1440" alt="Screen Shot 2022-02-06 at 08 25 02" src="https://user-images.githubusercontent.com/99019822/152694855-ff77fb4d-dabc-4385-91f9-a33ab4b25ab1.png">
+
+
+Acknowledgements
+
+Kunal Ghosh, Co-Founder (VSD Corp. Pvt. Ltd)
+Vikas Sachdeva - Vlsideepdive
+
+
 
 
 
