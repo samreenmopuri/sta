@@ -1,2 +1,4 @@
 # sta
 sta
+make
+
