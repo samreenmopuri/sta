@@ -33,6 +33,26 @@ opening Simple_Early.lib File
 opening Simple_Late.lib File
 <img width="1440" alt="Screen Shot 2022-02-04 at 19 09 07" src="https://user-images.githubusercontent.com/99019822/152688344-0d4f4c21-245b-478d-bf3f-15852ac9fce8.png">
 
+DAY 3
+Timing Arcs 
+      cell arcs
+      net arcs
+Combinational Arcs
+Sequential Arcs
+Timing Sense 
+    Positive Unate:output signaldirection will be same as input direction
+    negative unate:output signal direction will be opposite to input direction
+    Non Unate:It is not possible to predict whether output follows input direction
+Cell Delay is  a function of input transition ,output load/capacitance
+SETUP CHECK:
+STA finds the most restrictive setup by expanding the clock into a common base period and finding the most restrictive launch and capture.
+If the peroid of one clock cycle is Tperiod, setup time Tsetup, delay due to combinational logic Tcomb, clock skew Tskew, setup uncertainty Su due to jitter in clock
+The equation for setup check : Tcomb + Tsetup <= Tperiod + Tskew - Su
+<img width="534" alt="Screen Shot 2022-02-05 at 12 44 57" src="https://user-images.githubusercontent.com/99019822/152693103-afdaa4bf-e991-4c4f-aae8-b7a173855925.png">
+<img width="936" alt="Screen Shot 2022-02-05 at 16 33 03" src="https://user-images.githubusercontent.com/99019822/152693161-56007de1-0d73-4c13-8933-2c0e431b2dfb.png">
+<img width="1440" alt="Screen Shot 2022-02-05 at 16 34 52" src="https://user-images.githubusercontent.com/99019822/152693191-63f4bf3c-5f8f-4976-8d54-e4ddb54b0178.png">
+
+
 
 
 
