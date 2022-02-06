@@ -52,6 +52,22 @@ The equation for setup check : Tcomb + Tsetup <= Tperiod + Tskew - Su
 <img width="936" alt="Screen Shot 2022-02-05 at 16 33 03" src="https://user-images.githubusercontent.com/99019822/152693161-56007de1-0d73-4c13-8933-2c0e431b2dfb.png">
 <img width="1440" alt="Screen Shot 2022-02-05 at 16 34 52" src="https://user-images.githubusercontent.com/99019822/152693191-63f4bf3c-5f8f-4976-8d54-e4ddb54b0178.png">
 
+DAY4
+CLOCK GATING CHECKS
+<img width="829" alt="Screen Shot 2022-02-05 at 23 11 38" src="https://user-images.githubusercontent.com/99019822/152693755-07ef12ad-cd7a-4456-9a5a-cb595e05b825.png">
+COMPLEX CELL:Timing tool cant figure out to check
+Checks on Asynchronous Pin:Asserion is an asynchronous event & no relation with clock
+                           Deassertion causes flop to become depenent on clock
+                           
+  <img width="1440" alt="Screen Shot 2022-02-05 at 23 03 43" src="https://user-images.githubusercontent.com/99019822/152693972-ff365941-148d-4380-b54f-2497cecf96d4.png">
+  <img width="1440" alt="Screen Shot 2022-02-05 at 23 08 14" src="https://user-images.githubusercontent.com/99019822/152694068-b85b0980-6071-46d5-aa92-605e1d98a5f9.png">
+  <img width="1440" alt="Screen Shot 2022-02-05 at 23 09 52" src="https://user-images.githubusercontent.com/99019822/152694141-0e2c8c99-203b-45bd-8fdb-f07f9e44c16a.png">
+
+
+
+
+
+
 
 
 
